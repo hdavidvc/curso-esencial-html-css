@@ -1,0 +1,74 @@
+/* Definicion de fuentes desde nuestros servidores*/
+
+@font-face {
+    font-family: charter;
+    src: url('../fonts/CharterRegular.otf');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: charter;
+    src: url('../fonts/CharterItalic.otf');
+    font-style: italic;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: charter;
+    src: url('../fonts/charterBold.otf');
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: charter;
+    src: url('../fonts/CharterBoldItalic.otf');
+    font-style: italic;
+    font-weight: bold;
+}
+
+:root {
+    font-size: 16px;
+    --gray40: #212121;
+    --gray30: #212429;
+    --gray20: #424242;
+    --gray10: #616161;
+}
+
+body {
+    color: var(--gray20);
+    font-family: charter;
+}
+
+header {
+    color: var(--gray10);
+    font-size: 14px;
+}
+
+header a {
+    color: var(--gray10);
+    text-decoration: none;
+}
+
+header a:hover {
+    color: var(--gray20);
+}
+
+nav details summary {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 60px;
+    color: var(--gray40);
+}
+
+h2 {
+    font-size: 2em;
+    color: var(--gray40);
+}
+
+h3 {
+    font-size: 1.5em;
+}
